@@ -1,0 +1,3 @@
+C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir
+C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/rebuild_cache.dir
