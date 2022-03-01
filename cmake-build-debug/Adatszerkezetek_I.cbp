@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager"/>
+					<Add directory="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/models"/>
+					<Add directory="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/headers"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
@@ -42,6 +45,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager"/>
+					<Add directory="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/models"/>
+					<Add directory="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/headers"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
@@ -75,6 +81,48 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/main.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager/lab2.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager/lab_manager.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/models/product.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/models/user.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/main.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab2.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab_manager.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/product.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/headers/errors.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/headers/messages.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/headers/useful.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/src/errors.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/src/messages.c">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/CMakeLists.txt">

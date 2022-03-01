@@ -1,0 +1,8 @@
+//
+// Created by Kati on 2/23/2022.
+//
+
+#ifndef ADATSZERKEZETEK_I_USEFUL_H
+#define ADATSZERKEZETEK_I_USEFUL_H
+
+#endif //ADATSZERKEZETEK_I_USEFUL_H
