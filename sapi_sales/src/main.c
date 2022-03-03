@@ -5,6 +5,11 @@
 #include "lab_manager.h"
 
 int main(){
+    printRunMessage();
+    User ** user;
+    deleteUser(user);
+    printEndMessage();
+
     lab2();
     return 0;
 }

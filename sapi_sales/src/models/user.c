@@ -56,19 +56,19 @@ void createUser(User **user) {
 //
 //}
 
-void setUserData(
-        User *user,
-        char *name,
-        enum UserType userType,
-        enum Gender gender,
-        enum Specialization specialization,
-        int birthYear) {
-    strcpy(user->name, name);
-    user->userType = userType;
-    user->gender = gender;
-    user->specialization = specialization;
-    user->birthYear = birthYear;
-}
+//void setUserData(
+//        User *user,
+//        char *name,
+//        enum UserType userType,
+//        enum Gender gender,
+//        enum Specialization specialization,
+//        int birthYear) {
+//    strcpy(user->name, name);
+//    user->userType = userType;
+//    user->gender = gender;
+//    user->specialization = specialization;
+//    user->birthYear = birthYear;
+//}
 
 void printUser(User *user, char *destination) {
     if (user) {
@@ -76,7 +76,7 @@ void printUser(User *user, char *destination) {
         sprintf(destination, "\t\tType: %s\n", getUserlype(user->userType));
         sprintf(destination, "\t\tGender: %s\n", getGender(user->gender));
         sprintf(destination, "\t\tSpetialization: %s\n", getSpecialization(user->specialization));
-        sprintf(destination, "\t\tBirth Year: %d\n", getSpecialization(user->birthYear));
+        //sprintf(destination, "\t\tBirth Year: %d\n", getSpecialization(user->birthYear));
     } else {
         printf("is null");
     }
@@ -84,8 +84,4 @@ void printUser(User *user, char *destination) {
 
 void deleteUser(User **user) {
     free(user);
-}
-//**88
-void delete(UserDate **userDate){
-    free(userDate);
 }

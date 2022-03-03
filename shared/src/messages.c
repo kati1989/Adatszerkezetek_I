@@ -20,5 +20,18 @@ void printDecsriptionMessage(enum LabType messageType){
             printf("Undefined description\n");
             break;
     }
+
+
 }
+
+void printRunMessage(){
+    printf("\nA kod futasa elkezdodott");
+
+
+}
+
+void printEndMessage(){
+  printf("\nA kod futasa befejezodott");
+}
+
 

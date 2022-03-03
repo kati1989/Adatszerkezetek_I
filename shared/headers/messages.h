@@ -15,4 +15,6 @@ enum LabType{
 };
 
 void printDecsriptionMessage(enum LabType messageType);
+void printRunMessage();
+void printEndMessage();
 #endif //ADATSZERKEZETEK_I_MESSAGES_H
