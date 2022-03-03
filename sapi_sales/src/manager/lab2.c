@@ -9,7 +9,7 @@ void testUserFunctionalities(){
 
     createUser(&user1);
 
-    setUserData(user1, "Kis Erno", TEACHER,MASCULIN,MATHEMATICS_INFORMATICS,1980);
+   // setUserData(user1, "Kis Erno", TEACHER,MASCULIN,MATHEMATICS_INFORMATICS,1980);
 //****
     printUser(user1,CON);
 

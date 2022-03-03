@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/main.c">
-			<Option target="Adatszerkezetek_I"/>
-		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager/lab2.h">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>

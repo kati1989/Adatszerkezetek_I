@@ -45,6 +45,17 @@ void createUser(User **user) {
     }
 }
 
+//void set(
+//       BirthDate Date *userDate,
+//       int ev,
+//       int honap,
+//       int nap){
+//    strcpy(userDate->ev,ev);
+//    userDate->honap=honap;
+//    userDate->nap=nap;
+//
+//}
+
 void setUserData(
         User *user,
         char *name,
@@ -73,4 +84,8 @@ void printUser(User *user, char *destination) {
 
 void deleteUser(User **user) {
     free(user);
+}
+//**88
+void delete(UserDate **userDate){
+    free(userDate);
 }

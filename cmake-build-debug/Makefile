@@ -128,30 +128,6 @@ Adatszerkezetek_I/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/build
 .PHONY : Adatszerkezetek_I/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/main.c.s
-.PHONY : main.c.s
-
 sapi_sales/src/main.obj: sapi_sales/src/main.c.obj
 .PHONY : sapi_sales/src/main.obj
 
@@ -329,9 +305,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Adatszerkezetek_I
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... sapi_sales/src/main.obj
 	@echo ... sapi_sales/src/main.i
 	@echo ... sapi_sales/src/main.s

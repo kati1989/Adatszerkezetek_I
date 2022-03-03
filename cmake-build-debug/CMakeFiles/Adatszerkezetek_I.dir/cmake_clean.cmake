@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "Adatszerkezetek_I.exe"
   "Adatszerkezetek_I.exe.manifest"
   "Adatszerkezetek_I.pdb"
-  "CMakeFiles/Adatszerkezetek_I.dir/main.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab2.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab_manager.c.obj"
