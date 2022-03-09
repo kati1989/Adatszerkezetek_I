@@ -163,6 +163,34 @@ CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\sapi_sales\src\main.c -o CMakeFiles\Adatszerkezetek_I.dir\sapi_sales\src\main.c.s
 
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj: CMakeFiles/Adatszerkezetek_I.dir/flags.make
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj: CMakeFiles/Adatszerkezetek_I.dir/includes_C.rsp
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj: ../sapi_sales/src/manager/lab3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Adatszerkezetek_I.dir\sapi_sales\src\manager\lab3.c.obj -c C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\sapi_sales\src\manager\lab3.c
+
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\sapi_sales\src\manager\lab3.c > CMakeFiles\Adatszerkezetek_I.dir\sapi_sales\src\manager\lab3.c.i
+
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\sapi_sales\src\manager\lab3.c -o CMakeFiles\Adatszerkezetek_I.dir\sapi_sales\src\manager\lab3.c.s
+
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj: CMakeFiles/Adatszerkezetek_I.dir/flags.make
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj: CMakeFiles/Adatszerkezetek_I.dir/includes_C.rsp
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj: ../sapi_sales/src/models/user_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Adatszerkezetek_I.dir\sapi_sales\src\models\user_array.c.obj -c C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\sapi_sales\src\models\user_array.c
+
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\sapi_sales\src\models\user_array.c > CMakeFiles\Adatszerkezetek_I.dir\sapi_sales\src\models\user_array.c.i
+
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\sapi_sales\src\models\user_array.c -o CMakeFiles\Adatszerkezetek_I.dir\sapi_sales\src\models\user_array.c.s
+
 # Object files for target Adatszerkezetek_I
 Adatszerkezetek_I_OBJECTS = \
 "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product.c.obj" \
@@ -171,7 +199,9 @@ Adatszerkezetek_I_OBJECTS = \
 "CMakeFiles/Adatszerkezetek_I.dir/shared/src/messages.c.obj" \
 "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab2.c.obj" \
 "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab_manager.c.obj" \
-"CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.obj"
+"CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.obj" \
+"CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj" \
+"CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj"
 
 # External object files for target Adatszerkezetek_I
 Adatszerkezetek_I_EXTERNAL_OBJECTS =
@@ -183,11 +213,13 @@ Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/shared/src/messages.c.ob
 Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab2.c.obj
 Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab_manager.c.obj
 Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.obj
+Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj
+Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj
 Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/build.make
 Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/linklibs.rsp
 Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/objects1.rsp
 Adatszerkezetek_I.exe: CMakeFiles/Adatszerkezetek_I.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Adatszerkezetek_I.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Kati\Desktop\2022_II_felev\Adatszerkezetek_I\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable Adatszerkezetek_I.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Adatszerkezetek_I.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

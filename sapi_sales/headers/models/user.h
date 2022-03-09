@@ -42,7 +42,7 @@ typedef struct {
     enum UserType userType;
     enum Gender gender;
     //*********
-    BirthDate birthYear;
+    BirthDate birthDate;
     enum Specialization specialization;
 }User;
 
@@ -61,7 +61,7 @@ void setUserData(
         enum Gender gender,
         enum Specialization specialization,
         //*********
-        BirthDate birthYear);
+        BirthDate birthDate);
 
 void printUser(User* user, char* destination);
 void deleteUser(User** user);

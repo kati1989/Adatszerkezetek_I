@@ -3,6 +3,7 @@
 //
 #include <mem.h>
 #include "user.h"
+#include <time.h>
 
 char *getUserlype(enum UserType type) {
     switch (type) {
@@ -43,6 +44,10 @@ void createUser(User **user) {
     if (!(*user)) {
         printErrorMessage(MEMORY_ALLOCATION);
     }
+    srand(time(NULL));
+    (*user)->birthDate.nap = rand()%30;
+    (*user)->birthDate.honap =rand()%12;
+    (*user)->birthDate.ev=1980 + rand()%20;
 }
 
 //void set(

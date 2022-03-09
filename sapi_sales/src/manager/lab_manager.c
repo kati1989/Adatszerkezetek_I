@@ -8,3 +8,8 @@ void lab2(){
     printDecsriptionMessage(LAB2);
     testUserFunctionalities();
 }
+
+void lab3(){
+    printDecsriptionMessage(LAB2);
+    testUserFunctionalitiesLab3();
+}

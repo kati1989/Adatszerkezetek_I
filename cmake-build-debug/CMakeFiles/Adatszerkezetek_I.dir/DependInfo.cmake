@@ -10,9 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/main.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.obj"
   "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab2.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab2.c.obj"
+  "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab3.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj"
   "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab_manager.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab_manager.c.obj"
   "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/product.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product.c.obj"
   "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user.c.obj"
+  "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user_array.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj"
   "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/src/errors.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/shared/src/errors.c.obj"
   "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/src/messages.c" "C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/cmake-build-debug/CMakeFiles/Adatszerkezetek_I.dir/shared/src/messages.c.obj"
   )

@@ -3,6 +3,7 @@
 
 CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/main.c.obj: \
  ../sapi_sales/headers/manager/lab2.h \
+ ../sapi_sales/headers/manager/lab3.h \
  ../sapi_sales/headers/manager/lab_manager.h \
  ../sapi_sales/headers/models/product.h \
  ../sapi_sales/headers/models/user.h \
@@ -18,8 +19,17 @@ CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab2.c.obj: \
  ../shared/headers/messages.h \
  ../shared/headers/useful.h \
  ../sapi_sales/src/manager/lab2.c
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj: \
+ ../sapi_sales/headers/manager/lab3.h \
+ ../sapi_sales/headers/models/product.h \
+ ../sapi_sales/headers/models/user.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/src/manager/lab3.c
 CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab_manager.c.obj: \
  ../sapi_sales/headers/manager/lab2.h \
+ ../sapi_sales/headers/manager/lab3.h \
  ../sapi_sales/headers/manager/lab_manager.h \
  ../sapi_sales/headers/models/product.h \
  ../sapi_sales/headers/models/user.h \

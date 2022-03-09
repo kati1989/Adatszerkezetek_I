@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager/lab2.h">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager/lab3.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/manager/lab_manager.h">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
@@ -92,10 +95,16 @@
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/models/user.h">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/models/user_array.h">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/main.c">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab2.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab3.c">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab_manager.c">
@@ -105,6 +114,9 @@
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user.c">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user_array.c">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/headers/errors.h">
