@@ -49,6 +49,13 @@ CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user.c.obj: \
  ../shared/headers/messages.h \
  ../shared/headers/useful.h \
  ../sapi_sales/src/models/user.c
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj: \
+ ../sapi_sales/headers/models/user.h \
+ ../sapi_sales/headers/models/user_array.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/src/models/user_array.c
 CMakeFiles/Adatszerkezetek_I.dir/shared/src/errors.c.obj: \
  ../shared/headers/errors.h \
  ../shared/src/errors.c

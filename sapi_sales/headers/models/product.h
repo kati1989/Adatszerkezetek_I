@@ -10,4 +10,6 @@
 #include "errors.h"
 #include "messages.h"
 
+
+
 #endif //ADATSZERKEZETEK_I_PRODUCT_H

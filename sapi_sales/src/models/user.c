@@ -60,7 +60,7 @@ void createUser(User **user) {
 //    userDate->nap=nap;
 //
 //}
-
+//
 //void setUserData(
 //        User *user,
 //        char *name,

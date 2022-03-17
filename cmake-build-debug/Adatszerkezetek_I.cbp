@@ -119,6 +119,9 @@
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user_array.c">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>
+		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/stack/product_stack.cpp">
+			<Option target="Adatszerkezetek_I"/>
+		</Unit>
 		<Unit filename="C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/shared/headers/errors.h">
 			<Option target="Adatszerkezetek_I"/>
 		</Unit>

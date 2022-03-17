@@ -38,12 +38,11 @@ typedef  struct{
 
 typedef struct {
     long id;
-    char name[20];
-    enum UserType userType;
+    char name[50];
+    enum UserType type;
     enum Gender gender;
-    //*********
-    BirthDate birthDate;
     enum Specialization specialization;
+    BirthDate birthDate;
 }User;
 
 
