@@ -2,10 +2,10 @@
 // Created by Kati on 2/23/2022.
 //
 #include <mem.h>
-#include "user.h"
 #include <time.h>
+#include "user.h"
 
-char *getUserlype(enum UserType type) {
+char* getUserType(enum UserType type) {
     switch (type) {
         case STUDENT :
             return "Diak";
@@ -50,38 +50,27 @@ void createUser(User **user) {
     (*user)->birthDate.ev=1980 + rand()%20;
 }
 
-//void set(
-//       BirthDate Date *userDate,
-//       int ev,
-//       int honap,
-//       int nap){
-//    strcpy(userDate->ev,ev);
-//    userDate->honap=honap;
-//    userDate->nap=nap;
-//
-//}
-//
-//void setUserData(
-//        User *user,
-//        char *name,
-//        enum UserType userType,
-//        enum Gender gender,
-//        enum Specialization specialization,
-//        int birthYear) {
-//    strcpy(user->name, name);
-//    user->userType = userType;
-//    user->gender = gender;
-//    user->specialization = specialization;
-//    user->birthYear = birthYear;
-//}
+void setUserData(
+        User *user,
+        char *name,
+        enum UserType userType,
+        enum Gender gender,
+        enum Specialization specialization,
+        BirthDate birthDate) {
+    strcpy(user->name, name);
+    user->type = userType;
+    user->gender = gender;
+    user->specialization = specialization;
+    user->type=userType;
+    user->birthDate = birthDate;
+}
 
-void printUser(User *user, char *destination) {
+void printUser(User *user) {
     if (user) {
-        sprintf(destination, "User: %s\n", user->name);
-        sprintf(destination, "\t\tType: %s\n", getUserlype(user->userType));
-        sprintf(destination, "\t\tGender: %s\n", getGender(user->gender));
-        sprintf(destination, "\t\tSpetialization: %s\n", getSpecialization(user->specialization));
-        //sprintf(destination, "\t\tBirth Year: %d\n", getSpecialization(user->birthYear));
+        printf( "\n\t\tUser: %s\n", user->name);
+        printf( "\t\tType: %s\n", getUserType(user->type));
+        printf("\t\tGender: %s\n", getGender(user->gender));
+        printf("\t\tSpetialization: %s\n", getSpecialization(user->specialization));
     } else {
         printf("is null");
     }

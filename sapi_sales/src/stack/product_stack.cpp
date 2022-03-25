@@ -14,7 +14,7 @@ void createProductStack(ProductStack **productStack, Product *product) {
 
 }
 
-/*// function to create a stack of given capacity. It initializes size of
+// function to create a stack of given capacity. It initializes size of
 // stack as 0
 struct Stack* createStack(unsigned capacity)
 {
@@ -60,4 +60,4 @@ int peek(struct Stack* stack)
     if (isEmpty(stack))
         return INT_MIN;
     return stack->array[stack->top];
-}*/
+}

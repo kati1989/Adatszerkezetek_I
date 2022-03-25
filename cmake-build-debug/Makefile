@@ -248,6 +248,30 @@ sapi_sales/src/models/product.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product.c.s
 .PHONY : sapi_sales/src/models/product.c.s
 
+sapi_sales/src/models/product_array.obj: sapi_sales/src/models/product_array.c.obj
+.PHONY : sapi_sales/src/models/product_array.obj
+
+# target to build an object file
+sapi_sales/src/models/product_array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product_array.c.obj
+.PHONY : sapi_sales/src/models/product_array.c.obj
+
+sapi_sales/src/models/product_array.i: sapi_sales/src/models/product_array.c.i
+.PHONY : sapi_sales/src/models/product_array.i
+
+# target to preprocess a source file
+sapi_sales/src/models/product_array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product_array.c.i
+.PHONY : sapi_sales/src/models/product_array.c.i
+
+sapi_sales/src/models/product_array.s: sapi_sales/src/models/product_array.c.s
+.PHONY : sapi_sales/src/models/product_array.s
+
+# target to generate assembly for a file
+sapi_sales/src/models/product_array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product_array.c.s
+.PHONY : sapi_sales/src/models/product_array.c.s
+
 sapi_sales/src/models/user.obj: sapi_sales/src/models/user.c.obj
 .PHONY : sapi_sales/src/models/user.obj
 
@@ -368,6 +392,9 @@ help:
 	@echo ... sapi_sales/src/models/product.obj
 	@echo ... sapi_sales/src/models/product.i
 	@echo ... sapi_sales/src/models/product.s
+	@echo ... sapi_sales/src/models/product_array.obj
+	@echo ... sapi_sales/src/models/product_array.i
+	@echo ... sapi_sales/src/models/product_array.s
 	@echo ... sapi_sales/src/models/user.obj
 	@echo ... sapi_sales/src/models/user.i
 	@echo ... sapi_sales/src/models/user.s

@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab_manager.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product.c.obj"
+  "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product_array.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj"
   "CMakeFiles/Adatszerkezetek_I.dir/shared/src/errors.c.obj"

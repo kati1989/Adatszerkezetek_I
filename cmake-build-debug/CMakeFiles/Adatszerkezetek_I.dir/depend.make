@@ -23,6 +23,7 @@ CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj: \
  ../sapi_sales/headers/manager/lab3.h \
  ../sapi_sales/headers/models/product.h \
  ../sapi_sales/headers/models/user.h \
+ ../sapi_sales/headers/models/user_array.h \
  ../shared/headers/errors.h \
  ../shared/headers/messages.h \
  ../shared/headers/useful.h \

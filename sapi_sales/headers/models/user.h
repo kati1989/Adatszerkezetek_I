@@ -29,8 +29,7 @@ enum Specialization{
     MATHEMATICS_INFORMATICS,
 };
 
-
-typedef  struct{
+typedef struct{
     int ev;
     int honap;
     int nap;
@@ -45,24 +44,19 @@ typedef struct {
     BirthDate birthDate;
 }User;
 
-
-
-char* getUserlype(enum UserType type);
+char* getUserType(enum UserType type);
 char* getGender(enum Gender type);
 char* getSpecialization(enum Specialization type);
 
-void createUser(User** user);
-
 void setUserData(
-        User* user,
-        char* name,
+        User *user,
+        char *name,
         enum UserType userType,
         enum Gender gender,
         enum Specialization specialization,
-        //*********
         BirthDate birthDate);
-
-void printUser(User* user, char* destination);
+void createUser(User** user);
+void printUser(User *user);
 void deleteUser(User** user);
 
 #endif //ADATSZERKEZETEK_I_USER_H
