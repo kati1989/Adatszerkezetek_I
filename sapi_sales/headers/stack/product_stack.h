@@ -6,6 +6,9 @@
 #define ADATSZERKEZETEK_I_PRODUCT_STACK_H
 
 
+#include <product.h>
+#include <stdbool.h>
+
 typedef  struct{
     unsigned  int capacity;//természetes szám, a verem maximális kapacitása
     int top;//verem mutató - egész szám, a verem tetejére mutat, kezdetben -1
@@ -13,7 +16,7 @@ typedef  struct{
 
 }ProductStack;
 
-void createProductStack(ProductStack ** productStack,Product *product);
+void createProductStack(ProductStack ** productStack, unsigned int capacity);
 void push(ProductStack *productStack,Product * product);
 void pop(ProductStack *productStack);
 Product *top(ProductStack *productStack);

@@ -28,6 +28,14 @@ CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.obj: \
  ../shared/headers/messages.h \
  ../shared/headers/useful.h \
  ../sapi_sales/src/manager/lab3.c
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab5.c.obj: \
+ ../sapi_sales/headers/manager/lab5.h \
+ ../sapi_sales/headers/models/product.h \
+ ../sapi_sales/headers/stack/product_stack.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/src/manager/lab5.c
 CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab_manager.c.obj: \
  ../sapi_sales/headers/manager/lab2.h \
  ../sapi_sales/headers/manager/lab3.h \
@@ -44,6 +52,13 @@ CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product.c.obj: \
  ../shared/headers/messages.h \
  ../shared/headers/useful.h \
  ../sapi_sales/src/models/product.c
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/product_array.c.obj: \
+ ../sapi_sales/headers/models/product.h \
+ ../sapi_sales/headers/models/product_array.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/src/models/product_array.c
 CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user.c.obj: \
  ../sapi_sales/headers/models/user.h \
  ../shared/headers/errors.h \
@@ -57,6 +72,13 @@ CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.obj: \
  ../shared/headers/messages.h \
  ../shared/headers/useful.h \
  ../sapi_sales/src/models/user_array.c
+CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/stack/product_stack.c.obj: \
+ ../sapi_sales/headers/models/product.h \
+ ../shared/headers/errors.h \
+ ../shared/headers/messages.h \
+ ../shared/headers/useful.h \
+ ../sapi_sales/headers/stack/product_stack.h \
+ ../sapi_sales/src/stack/product_stack.c
 CMakeFiles/Adatszerkezetek_I.dir/shared/src/errors.c.obj: \
  ../shared/headers/errors.h \
  ../shared/src/errors.c

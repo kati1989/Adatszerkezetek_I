@@ -200,6 +200,30 @@ sapi_sales/src/manager/lab3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab3.c.s
 .PHONY : sapi_sales/src/manager/lab3.c.s
 
+sapi_sales/src/manager/lab5.obj: sapi_sales/src/manager/lab5.c.obj
+.PHONY : sapi_sales/src/manager/lab5.obj
+
+# target to build an object file
+sapi_sales/src/manager/lab5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab5.c.obj
+.PHONY : sapi_sales/src/manager/lab5.c.obj
+
+sapi_sales/src/manager/lab5.i: sapi_sales/src/manager/lab5.c.i
+.PHONY : sapi_sales/src/manager/lab5.i
+
+# target to preprocess a source file
+sapi_sales/src/manager/lab5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab5.c.i
+.PHONY : sapi_sales/src/manager/lab5.c.i
+
+sapi_sales/src/manager/lab5.s: sapi_sales/src/manager/lab5.c.s
+.PHONY : sapi_sales/src/manager/lab5.s
+
+# target to generate assembly for a file
+sapi_sales/src/manager/lab5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/manager/lab5.c.s
+.PHONY : sapi_sales/src/manager/lab5.c.s
+
 sapi_sales/src/manager/lab_manager.obj: sapi_sales/src/manager/lab_manager.c.obj
 .PHONY : sapi_sales/src/manager/lab_manager.obj
 
@@ -320,6 +344,30 @@ sapi_sales/src/models/user_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/models/user_array.c.s
 .PHONY : sapi_sales/src/models/user_array.c.s
 
+sapi_sales/src/stack/product_stack.obj: sapi_sales/src/stack/product_stack.c.obj
+.PHONY : sapi_sales/src/stack/product_stack.obj
+
+# target to build an object file
+sapi_sales/src/stack/product_stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/stack/product_stack.c.obj
+.PHONY : sapi_sales/src/stack/product_stack.c.obj
+
+sapi_sales/src/stack/product_stack.i: sapi_sales/src/stack/product_stack.c.i
+.PHONY : sapi_sales/src/stack/product_stack.i
+
+# target to preprocess a source file
+sapi_sales/src/stack/product_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/stack/product_stack.c.i
+.PHONY : sapi_sales/src/stack/product_stack.c.i
+
+sapi_sales/src/stack/product_stack.s: sapi_sales/src/stack/product_stack.c.s
+.PHONY : sapi_sales/src/stack/product_stack.s
+
+# target to generate assembly for a file
+sapi_sales/src/stack/product_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Adatszerkezetek_I.dir\build.make CMakeFiles/Adatszerkezetek_I.dir/sapi_sales/src/stack/product_stack.c.s
+.PHONY : sapi_sales/src/stack/product_stack.c.s
+
 shared/src/errors.obj: shared/src/errors.c.obj
 .PHONY : shared/src/errors.obj
 
@@ -386,6 +434,9 @@ help:
 	@echo ... sapi_sales/src/manager/lab3.obj
 	@echo ... sapi_sales/src/manager/lab3.i
 	@echo ... sapi_sales/src/manager/lab3.s
+	@echo ... sapi_sales/src/manager/lab5.obj
+	@echo ... sapi_sales/src/manager/lab5.i
+	@echo ... sapi_sales/src/manager/lab5.s
 	@echo ... sapi_sales/src/manager/lab_manager.obj
 	@echo ... sapi_sales/src/manager/lab_manager.i
 	@echo ... sapi_sales/src/manager/lab_manager.s
@@ -401,6 +452,9 @@ help:
 	@echo ... sapi_sales/src/models/user_array.obj
 	@echo ... sapi_sales/src/models/user_array.i
 	@echo ... sapi_sales/src/models/user_array.s
+	@echo ... sapi_sales/src/stack/product_stack.obj
+	@echo ... sapi_sales/src/stack/product_stack.i
+	@echo ... sapi_sales/src/stack/product_stack.s
 	@echo ... shared/src/errors.obj
 	@echo ... shared/src/errors.i
 	@echo ... shared/src/errors.s
