@@ -13,3 +13,8 @@ void lab3(){
     printDecsriptionMessage(LAB2);
     testUserFunctionalitiesLab3();
 }
+
+void lab5(){
+    printDecsriptionMessage(LAB2);
+    testUserFunctionalitiesLab5();
+}

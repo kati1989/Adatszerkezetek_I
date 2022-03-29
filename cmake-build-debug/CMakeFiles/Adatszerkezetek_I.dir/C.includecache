@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../sapi_sales/headers/manager/lab5.h
+product_stack.h
+../sapi_sales/headers/manager/product_stack.h
 
 ../sapi_sales/headers/models/product.h
 stdlib.h
@@ -40,25 +42,11 @@ stdio.h
 
 ../shared/headers/useful.h
 
-C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/stack/product_stack.h
-product.h
--
-stdbool.h
--
-
 C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab5.c
-product_stack.h
-C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/product_stack.h
+stdio.h
+-
+string.h
+-
 lab5.h
 C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab5.h
-
-C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/stack/product_stack.c
-malloc.h
--
-errors.h
--
-limits.h
--
-../../headers/stack/product_stack.h
-C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/headers/stack/product_stack.h
 

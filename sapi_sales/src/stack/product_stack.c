@@ -4,11 +4,10 @@
 
 #include <malloc.h>
 #include <errors.h>
-#include <limits.h>
 #include "../../headers/stack/product_stack.h"
 
 
-void createProductProductStack(ProductStack **productProductStack, unsigned int capacity) {
+void createProductStack(ProductStack **productProductStack, unsigned int capacity) {
     *productProductStack = (ProductStack *) malloc(sizeof(ProductStack));
     if (!(*productProductStack)) {
         printErrorMessage(MEMORY_ALLOCATION);
@@ -49,6 +48,6 @@ Product* top(ProductStack *stack) {
     else return NULL;
 }
 
-void deleteProductProductStack(ProductStack **pProductStack) {
+void deleteProductStack(ProductStack **pProductStack) {
     free(pProductStack);
 }
