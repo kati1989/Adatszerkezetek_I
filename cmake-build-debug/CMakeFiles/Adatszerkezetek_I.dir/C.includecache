@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
+../sapi_sales/headers/manager/lab2.h
+user.h
+../sapi_sales/headers/manager/user.h
+product.h
+../sapi_sales/headers/manager/product.h
+
+../sapi_sales/headers/manager/lab3.h
+user.h
+../sapi_sales/headers/manager/user.h
+product.h
+../sapi_sales/headers/manager/product.h
+
 ../sapi_sales/headers/manager/lab5.h
 product_stack.h
 ../sapi_sales/headers/manager/product_stack.h
+
+../sapi_sales/headers/manager/lab_manager.h
+lab2.h
+../sapi_sales/headers/manager/lab2.h
+lab3.h
+../sapi_sales/headers/manager/lab3.h
+lab5.h
+../sapi_sales/headers/manager/lab5.h
 
 ../sapi_sales/headers/models/product.h
 stdlib.h
@@ -21,6 +41,22 @@ errors.h
 ../sapi_sales/headers/models/errors.h
 messages.h
 ../sapi_sales/headers/models/messages.h
+
+../sapi_sales/headers/models/user.h
+stdlib.h
+-
+useful.h
+../sapi_sales/headers/models/useful.h
+errors.h
+../sapi_sales/headers/models/errors.h
+messages.h
+../sapi_sales/headers/models/messages.h
+
+../sapi_sales/headers/models/user_array.h
+user.h
+../sapi_sales/headers/models/user.h
+stdbool.h
+-
 
 ../sapi_sales/headers/stack/product_stack.h
 product.h
@@ -42,11 +78,13 @@ stdio.h
 
 ../shared/headers/useful.h
 
-C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab5.c
-stdio.h
--
+C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/main.c
+lab_manager.h
+C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/lab_manager.h
+
+C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user_array.c
 string.h
 -
-lab5.h
-C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/manager/lab5.h
+user_array.h
+C:/Users/Kati/Desktop/2022_II_felev/Adatszerkezetek_I/sapi_sales/src/models/user_array.h
 

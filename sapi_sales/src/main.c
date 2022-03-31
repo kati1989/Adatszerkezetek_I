@@ -11,7 +11,7 @@ int main(){
     printEndMessage();
    // lab2();
 
-    //lab3();
+  //  lab3();
     lab5();
     return 0;
 }

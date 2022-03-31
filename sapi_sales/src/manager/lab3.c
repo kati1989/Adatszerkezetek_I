@@ -27,5 +27,9 @@ void testUserFunctionalitiesLab3(){
 
     printUser(userFromArray);
     deleteUser(&user1);
+
+    UserArray* pUserArray2;
+
+    readUserArrayFromFile(pUserArray2,"users.txt");
 }
 

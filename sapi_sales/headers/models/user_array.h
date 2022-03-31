@@ -18,7 +18,7 @@ void createUserArray(UserArray **userArray, unsigned  int maxUsers);
 void deleteUserArray(UserArray **userArray);
 bool addNewUser(UserArray * userArray,User * newUser);
 User * getUserAtPosition(UserArray*userArray,int position);
-
+void readUserArrayFromFile(UserArray *userArray, char* file);
 
 
 #endif //ADATSZERKEZETEK_I_USER_ARRAY_H
